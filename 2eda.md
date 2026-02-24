@@ -9,7 +9,7 @@ EDA was done on the Auto-mpg dataset to:
 - Output Scatter plot for different parameters.
 
 ## Method
-The dataset used was the [auto_mpg dataset](Unit02 auto-mpg (1).csv) on Google Colab, using Python.
+The dataset used was the [auto_mpg dataset](auto-mpg(1).csv) on Google Colab, using Python.
 
 The shape of the dataset was checked, showin 398 rows and 9 columns. df.info() was used to learn more about the dataset, showing that the 9 columns were mpg, cylinders, displacement, horsepower, weight, acceleration, model year, origin, and car name. mpg, displacement, and acceleration were floats, cylinders, weight, model year, and origin were integers, and horsepower and car names were objects. The dataset used around 28kB of memory.
 
