@@ -57,7 +57,7 @@ The skewness and kurtosis for all numeric columns were then plotted, as well as 
 
 ![My Image](kurtskew.png)
 *Figure 2: Plots showing kurtosis and skewness for all numeric variables.*
-![My Image](heatmap.png)
+![My Image](heatmap.png) <br>
 *Figure 3: Correlation heatmap for all numeric variables.*
 
 Finally, scatter plots were outputted to show the relationship between various variables includeing the mpg vs weight, horsepower, and displacement respectively, and showing weight vs horsepower. The miles per gallon show an exponential or curvilinear decrease as weight, horsepower and displacement increase whilst, weight shows an almost linear increase with horsepower. These observed relationships demonstrate that heavier vehicles with higher horsepower and larger engine displacement tend to have lower fuel efficiency. Conversely, as weight increases, horsepower also rises almost linerly, indicating that more powerful cars are generally heavier. These patterns highlight trade-offs between performance and fuel economy that are important for vehicle design.
