@@ -20,9 +20,19 @@ This e-portfolio has significantly contributed to my professional and personal g
 
 ---
 
-### [Deciphering Big Data July 2025 - e-Portfolio Entries](datamoduleindex.md)
 ### [Machine LearningJanuary 2026 - e-Portfolio Entries](mlmoduleindex.md)
-
+*   [Weeks 1 - 3: Collaborative Discussion 1](mlcollab-disc1.md)
+*   [Week 2: Unit 2 Seminar Preparation](web-scraping.md)
+*   [Week 3: Web Scraping](web-scraping.md)
+*   [Weeks 4 - 5: UNICEF Dataset Cleaning and Automation (Lecturecast Task)](task4-5.md)
+*   [Week 6: Clinical Trial Database - Team Project](team-project.md)
+*   [Week 7.1: Normalisation Task](normal.md)
+*   [Week 7.2: Data Build Task](databuild.md)
+*   [Weeks 8 - 10: Collaborative Discussion 2](collab-disc2.md)
+*   [Week 10: API Security Requirements](api-security.md)
+*   [Week 11.1: Executive Summary](exec-summary.md)
+*   [Week 11.2: Back Up Procedure](gfs.md)
+*   [Reflective Essay](reflect.md)
 
 ---
 
