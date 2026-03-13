@@ -47,4 +47,4 @@ This activity highlighted key learning outcomes:
 - Pre-processing, analysis, and visualisation required systematic problem-solving and workflow, reflecting the need for real-world collaboration in a professional team setting to include clear code, plots, and explanations throughout, to be interpretable by colleagues.
 
 ### Code
-The code can be found [here]{sem4.py}
+The code can be found [here]{sem4.ipynb}
