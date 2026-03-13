@@ -12,7 +12,7 @@ This caused the removal of 10 rows, including small territories, bank clasificat
 
 * Analysis - The scatter plot showed a general upward trend: countries with higher population tend to have a higher GDP per capita, shown in Figure 1. A Pearson correlation coefficient of 0.72 (moderately strong) and p-value ≈  1.85 e-42, confirming statistical significance
 
-![My Image](population_vs_gdp.png)
+![My Image](popvsgdp.png)
 *Figure 1: Scatter plot showing mean GDP per capita against mean population.*
 
 * Interpretation - The analysis confirmed a positive association between popoulation size and GDP per capita. Some variability exists but the correlation is statistically significant. The variability may  have also been caused by missing values though this should not be the case since these were mostly accounted for.
