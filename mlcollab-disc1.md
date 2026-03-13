@@ -38,12 +38,10 @@ This discussion taught me about real-world cyberattacks and illutrated the compl
 
 Kour, R. et al. (2024) ‘Cybersecurity for Industry 5.0: Trends and gaps’, Frontiers in Computer Science, 6. doi:10.3389/fcomp.2024.1434436. <br> 
 Metcalf, G.S. (2024) ‘An Introduction to Industry 5.0: History, Foundations, and Future’, in Industry 4.0 to Industry 5.0 - Explorations in the Transition from a Techno-economic to a Socio-technical Future. SIngapore: Springer, pp. 1–29.  <br> 
-United States Department of Health and Human Services (2022) Lessons Learned from the HSE Cyber Attack [Preprint].
-<img width="468" height="145" alt="image" src="https://github.com/user-attachments/assets/b4a7e8d9-5dc2-4643-ad81-f7a04ec4ff8c" />  <br> 
+United States Department of Health and Human Services (2022) Lessons Learned from the HSE Cyber Attack [Preprint].<br> 
 Schwab, K. (2016) The Fourth Industrial Revolution: What It Means and how to respond, World Economic Forum. Available at: https://www.weforum.org/stories/2016/01/the-fourth-industrial-revolution-what-it-means-and-how-to-respond/ (Accessed: 20 February 2026). <br>
-The UK Parliament Treasury Committee (2024) more than one month’s worth of IT failures at major banks and building societies in the last two years. Available at: https://committees.parliament.uk/committee/158/treasury-committee/news/205611/more-than-one-months-worth-of-it-failures-at-major-banks-and-building-societies-in-the-last-two-years/<img width="468" height="63" alt="image" src="https://github.com/user-attachments/assets/126c0916-8150-4463-ba6e-52aba498d730" /> <br>
-Toyota Motor Corporation (2023). Deepening Ties in Difficult Times—1 Year on from Kojima Industries Cyberattack. [online] Toyota Times News. Available at: https://toyotatimes.jp/en/newscast/008.html [Accessed 24 Feb. 2026].
-<img width="468" height="119" alt="image" src="https://github.com/user-attachments/assets/75fde51b-38dc-4ad4-824c-b817941f7785" /> <br>
+The UK Parliament Treasury Committee (2024) more than one month’s worth of IT failures at major banks and building societies in the last two years. Available at: https://committees.parliament.uk/committee/158/treasury-committee/news/205611/more-than-one-months-worth-of-it-failures-at-major-banks-and-building-societies-in-the-last-two-years/<br>
+Toyota Motor Corporation (2023). Deepening Ties in Difficult Times—1 Year on from Kojima Industries Cyberattack. [online] Toyota Times News. Available at: https://toyotatimes.jp/en/newscast/008.html [Accessed 24 Feb. 2026]. <br>
 
 ### Collaborative Discussion
 The full collaborative discussion in which I was involved in can be found [here](CollabDisc1.docx)
