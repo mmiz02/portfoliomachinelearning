@@ -21,12 +21,12 @@ This caused the removal of 10 rows, including small territories, bank clasificat
 
 A linear regression model was performed to investigate the relationship between the population of each country and the mean per capita GDP. The mean population was set as the independent variable.
 
-# Outputs
-Coefficients: 4851.66
-Intercept: 5.06e+11
-Mean absolute error: 2.08e+16
-Residual sum of squares (MSE): 3.7e+33
-R2-score: -0.13
+# Outputs <br>
+Coefficients: 6457 <br>
+Intercept: 2.90e+11 <br>
+Mean absolute error: 1.73e+16 <br>
+Residual sum of squares (MSE): 2.37e+33 <br>
+R2-score: -0.14 <br>
 
 * Observations
 The regression coefficients and intercept are extremely large, and R² is negative. This indicates that the model does not fit well when using raw population values. This occurs because population values are very high making the linear model unstable.
