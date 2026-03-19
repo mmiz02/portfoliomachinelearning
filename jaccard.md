@@ -32,13 +32,13 @@ M11 = Number of positions where both vectors have 1<br>
 M10 = Positions where A has 1 and B has 0<br>
 M01 = Positions where A has 0 and B has 1<br>
 
-Treating Y, P, or A as 1, and N as 0.
+Treating Y or P as 1, and N or A as 0.
 
-- (Jack, Mary) = ($\frac{2}{2+1+2}$) = 0.40<br>
-- (Jack, Jim) = ($\frac{3}{1+0+3}$) = 0.75<br>
-- (Jim, Mary) = ($\frac{2}{2+2+2}$) = 0.33<br>
+- (Jack, Mary) = ($\frac{2}{1+1+2}$) = 0.50<br>
+- (Jack, Jim) = ($\frac{2}{1+0+2}$) = 0.67<br>
+- (Jim, Mary) = ($\frac{2}{1+1+2}$) = 0.50<br>
 
-Therefore this shows that the set most similar was (Jack, Jim) with aJaccard coefficient of 0.74 and the most dissimilar set was (Jim, Mary) with a Jaccard coefficient of 0.33.
+Therefore this shows that the set most similar was (Jack, Jim) with a Jaccard coefficient of 0.67 and the others were equally less similar with the same Jaccard coefficient of 0.50.
 
 ### Reflection
 The task required converting categorical pathological test outcomes into binary values which represent the presence or absence of symptoms or conditions to compute the similarity between pairs of individuals, demonstrating how similarity measures can be applied to real-world datasets. This exercise helped me learn about the challenges of real-world datasets which are often heterogeneous and contain missing values. Converting symbolic data into binary respresentations requires assumptions about what constitutes meaningful similarity. This highlights the importance of data preprocessing and domain knowledge when applying machine learning techniques. Furthermore, small datasets, such as the one used, can limit the reliability and generalisibilty of similarity measures.
