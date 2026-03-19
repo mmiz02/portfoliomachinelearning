@@ -16,7 +16,7 @@ Iteration until convergence:
 These steps repeat until the centroids stop moving and points no longer change clusters or until the maximum number of iterations has been reached. By this point there will be algorithm convergene, where the total distance between points and their cluster centres is minimised.
 
 ### Insights from the Second Animation (Uniform Points)
-For the [second algorithm](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/), I chose the data points, using the 'Uniform Points' option which illustrated additional behaviours:
+For the [second algorithm](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/), I chose the data points, using the 'Uniform Points' option which illustrated additional behaviours (Harris, 2014):
 
 This time, the Voronoi regions were shown which clearly showed how cluster boundaries are determined. Using coloured points and Voronoi regions, it was easily illustrated how different points changed cluters with each iteration. When centroids were poorly initialised, clusters were uneven or unstable, highlighting that final clustering depends on starting positions.
 
@@ -29,6 +29,6 @@ In real-world applications, incorrect clustering could lead to biased decision-m
 
 
 ### References
-Harris, N. (2014) *Visualizing K-means clustering, Naftali Harris*. Available at: https://www.naftaliharris.com/blog/visualizing-k-means-clustering/ (Accessed: 19 March 2026). 
+Harris, N. (2014) *Visualizing K-means clustering, Naftali Harris*. Available at: https://www.naftaliharris.com/blog/visualizing-k-means-clustering/ (Accessed: 19 March 2026). <br>
 Kavlakoglu, E. and Winland, V. (2025) *What is K-means clustering?*, IBM. Available at: https://www.ibm.com/think/topics/k-means-clustering (Accessed: 19 March 2026). 
 
