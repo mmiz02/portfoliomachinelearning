@@ -15,7 +15,7 @@ The Jaccard Coefficient was calculated for the following pairs:
 - (Jack, Jim)<br>
 - (Jim, Mary)<br>
 
-The Jaccard Coefficient is calculated as follows (Jaccard Similarity, 2025):
+The Jaccard Coefficient is calculated as follows (Jaccard Similarity, 2025):<br>
 J(A,B) = ($\frac{|A∩B|}{|A∪B|}$) 
 
 where |A∩B| shows the similarities between the sets and |A∪B| shows the number of unique elements in the set.
@@ -27,7 +27,7 @@ The output can range from 0 to 1, where:
 For 2 binary vectors:
 J(A,B) = ($\frac{M11}{M01+M10+M11}$) 
 
-where <br>
+where, <br>
 M11 = Number of positions where both vectors have 1<br>
 M10 = Positions where A has 1 and B has 0<br>
 M01 = Positions where A has 0 and B has 1<br>
