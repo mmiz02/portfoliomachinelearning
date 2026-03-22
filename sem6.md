@@ -33,7 +33,7 @@ Upon clustering at K = 3, the similarity of clusters to the actual species label
 Confirming this, a scatter plot was created, where the clusters were coloured differently, the markers' sizes were proportional to their septal_width, and petal_width against petal_length was plotted (Fig.3). This shows that one cluster is being wellseparated but that clusters 1 and 2 have some overlap.
 
 ![My Image](scatter.png)
-*Figure 2: Scatter plot of Iris data showing 3 different clusters.
+*Figure 3: Scatter plot of Iris data showing 3 different clusters.*
 
 ### Code
 The code used for this task may be viewed [here](sem6.ipynb).
