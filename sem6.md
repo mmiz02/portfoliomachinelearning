@@ -1,12 +1,12 @@
 # Unit 6 Seminar Preparation - K-Means Clustering Tutorial
 
-This week, the focus continued on k-means clustering. Preparing for the Seminar 6 lecture, the K-Means demon notebook.ipyn was opened in Jupyter Notebook and  Cust_Segmentation.csv was downloaded from Kaggle. The cells were run to become familiar with how to develop a k-means clustering model. Following the methods utilised, the task below was carried out:
+This week, the focus continued on k-means clustering. Preparing for the Seminar 6 lecture, the K-Means demon notebook.ipyb was opened in Jupyter Notebook and  Cust_Segmentation.csv was downloaded from Kaggle. The cells were run to become familiar with how to develop a k-means clustering model. Following the methods utilised, the task below was carried out:
 
 ### Task A: Iris data
 K-Means clustering was performed on the dataset, iris.csv (from the UCI Machine Learning Repository). 
 
 The following code was used to search for missing values:<br>
-cust_df.isnull().any().any()
+'cust_df.isnull().any().any()'
 
 No missing values were found. Before using the data for clustering, the 'species' column was removed because this was a categorical column and because the K-Means algorithm involves the calculation of Euclidian distance. Because of this, the dataset was standardised using *StandardScaler*. The cluster value of K = 3 was chosen, aligning with the known number of species. This was confirmed to be the optimal number of clusters using the elbow method (Fig.1).
 
