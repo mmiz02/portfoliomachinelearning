@@ -30,7 +30,7 @@ que?!?!?!?This e-portfolio has significantly contributed to my professional and 
 *   [Week 6.1: Unit 6 Seminar Preparation](sem6.md)
 *   [Week 6.2: Team Project & Peer Review](team-project.md)
 *   [Week 7: Perceptron Activities](perceptron.md)
-*   [Weeks 8: Unit 8 Seminar Preparation](sem8.md)
+*   [Week 8: Gradient Cost Function](grad.md)
 *   [Weeks 8 - 10: Collaborative Discussion 2](mlcollab-disc2.md)
 *   [Week 9: CNN Model Activity](cnn-model.md)
 *   [Week 10: Unit 10 Seminar Preparation](sem10.md)
