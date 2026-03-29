@@ -10,15 +10,15 @@ y = np.array([5,7,9,11,13])
 The cost function used was the Mean Squared Erroro (MSE), and I tracked how the cost changed over multiple iterations.<br>
 
 I experimented with different scenarios:<br>
-1. Medium iterations with high learning rate (iterations = 100, learning rate = 0.5):<br>
+#### 1. Medium iterations with high learning rate (iterations = 100, learning rate = 0.5):<br>
 In this case, the algorithm diverged. The values of the slope (m) and the intercept (b) increased dramatically and alternated betweeen positive and negative values. The cost increased rapidly instead of deceasing, showing that the learning rate was too high and caused the algorithm to overshoot the global minimum.<br>
 ![My Image](cost1.png)
 *Figure 1: Line plot showing Cost decrease for medium iterations with high learning rate.*<br>
-2. High iterations with low learning rate (iterations = 1000, learning rate = 0.08):<br>
+#### 2. High iterations with low learning rate (iterations = 1000, learning rate = 0.08):<br>
 The algorithm converged quickly. The iterations were too high, however the learning rate looked ideal.<br>
 ![My Image](cost2.png)
 *Figure 2: Line plot showing Cost decrease for high iterations with low learning rate.*<br>
-3. Medium iterations with low learning rate (iterations = 100, learning rate = 0.0845):<br>
+#### 3. Medium iterations with low learning rate (iterations = 100, learning rate = 0.0845):<br>
 At this learning rate, onverged very quickly, causing the cost to stabilise early, appearing almost as a straight line.<br>
 ![My Image](cost3.png)
 *Figure 3: Line plot showing Cost decrease for medium iterations with low learning rate.*
@@ -61,7 +61,3 @@ gradient_descent_plot(x,y)
 Overall, the experiments highloight the trade-off between learning rate and iterations in gradient descent. While a high learning rate leads to divergence due to overshooting, a well-tuned learning rate enables rapid convergence with minimal iterations. The results also show that for simple datasets, convergence can occur early, making excessive iterations redundant. 
 
 This task helped me gain a practical understanding of hwo gradient descent works and to understand the importance of tuning parameters depending on one's dataset to improve accuracy and efficiency.
-
-
-Learning Outcomes
-Understand the applicability and challenges associated with different datasets for the use of machine learning algorithms.
