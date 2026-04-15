@@ -4,9 +4,9 @@ Over three weeks, I participated in a collaborative discussion exploring the leg
 
 ### Week 1 - My Initial Post
 
-In my initial post, i examined both the advantages and risks of AI-generated writing, based on Hutson (2021). I argue that AI writers provide clear benefits at an administrative level, particularly in improving efficiency, automating repetitive tasks, and generating content quickly. These strengths align with key goals in machine learning, such as optimisation and scalability (Pokhrel & Banjade, 2023).
+In my initial post, I examined both the advantages and risks of AI-generated writing, based on Hutson (2021). I argue that AI writers provide clear benefits at an administrative level, particularly in improving efficiency, automating repetitive tasks, and generating content quickly. These strengths align with key goals in machine learning, such as optimisation and scalability (Pokhrel & Banjade, 2023).
 
-However, I smephasised a fundamental limitation: AI systems rely on statistical relationships between words rather than true understanding. As a result, they can produce outputs that appear coherent but may be inaccurate or biased. While increasing model size can improve performance, I argued that they cannot be infinitely increased to capture all possible patterns or to be able to replicate human beings (Hutson, 2021).
+However, I emphasised a fundamental limitation: AI systems rely on statistical relationships between words rather than true understanding. As a result, they can produce outputs that appear coherent but may be inaccurate or biased. While increasing model size can improve performance, I argued that they cannot be infinitely increased to capture all possible patterns or to be able to replicate human beings (Hutson, 2021).
 
 I also discussed how these limitations become more significant in areas such as journalism and education, where accuracy and critical interpretation are essential. Additionally, I highlighted the growing concern that students may rely overtly on AI tools, potentially reducing independent research and critical thinking skills (Larson et al., 2024).
 
@@ -35,16 +35,16 @@ This discussion enhanced my understanding of the capabilities and limitations of
 
 
 ### References:
-Anderljung, M., Hazell, J. and von Knebel, M. (2024) ‘*Protecting society from ai misuse: When are restrictions on capabilities warranted?*’, AI &amp; SOCIETY, 40(5), pp. 3841–3857. doi:10.1007/s00146-024-02130-8. 
-Esmaeilzadeh, P. (2025) ‘*Decoding the cry for help: Ai’s emerging role in suicide risk assessment*’, AI and Ethics, 5(5), pp. 4645–4679. doi:10.1007/s43681-025-00758-w. 
-Fang, X. et al. (2024) ‘*Bias of AI-generated content: An examination of news produced by large language models*’, Scientific Reports, 14(1). doi:10.1038/s41598-024-55686-2. 
-Gebru, T. et al. (2021) ‘*Datasheets for datasets*’, Communications of the ACM, 64(12), pp. 86–92.
-Hutson, M. (2021) *Robo-writers: The rise and risks of language-generating AI, Nature News*. Available at: https://www.nature.com/articles/d41586-021-00530-0 (Accessed: 28 March 2026).
-Langer, M., Baum, K. and Schlicker, N. (2024) ‘*Effective human oversight of AI-based systems: A signal detection perspective on the detection of inaccurate and unfair outputs*’, Minds and Machines, 35(1). doi:10.1007/s11023-024-09701-0. 
+Anderljung, M., Hazell, J. and von Knebel, M. (2024) ‘*Protecting society from ai misuse: When are restrictions on capabilities warranted?*’, AI &amp; SOCIETY, 40(5), pp. 3841–3857. doi:10.1007/s00146-024-02130-8. <br>
+Esmaeilzadeh, P. (2025) ‘*Decoding the cry for help: Ai’s emerging role in suicide risk assessment*’, AI and Ethics, 5(5), pp. 4645–4679. doi:10.1007/s43681-025-00758-w. <br>
+Fang, X. et al. (2024) ‘*Bias of AI-generated content: An examination of news produced by large language models*’, Scientific Reports, 14(1). doi:10.1038/s41598-024-55686-2. <br>
+Gebru, T. et al. (2021) ‘*Datasheets for datasets*’, Communications of the ACM, 64(12), pp. 86–92.<br>
+Hutson, M. (2021) *Robo-writers: The rise and risks of language-generating AI, Nature News*. Available at: https://www.nature.com/articles/d41586-021-00530-0 (Accessed: 28 March 2026).<br>
+Langer, M., Baum, K. and Schlicker, N. (2024) ‘*Effective human oversight of AI-based systems: A signal detection perspective on the detection of inaccurate and unfair outputs*’, Minds and Machines, 35(1). doi:10.1007/s11023-024-09701-0. <br>
 Larson, B.Z. et al. (2024) ‘*Critical thinking in the age of Generative AI’, Academy of Management Learning*; Education, 23(3), pp. 373–378. doi:10.5465/amle.2024.0338. 
-Pokhrel, S. and Banjade, S.R. (2023) ‘*Ai Content Generation Technology based on open AI language model*’, Journal of Artificial Intelligence and Capsule Networks, 5(4), pp. 534–548. doi:10.36548/jaicn.2023.4.006. 
-Rozputnia, B. et al. (2025) ‘*Methodological approaches to using artificial intelligence to develop creative skills in future designers*’, Environment. Technology. 
-Saeidnia, H.R., Hosseini, E., Lund, B., Tehrani, M.A., Zaker, S. and Molaei, S., 2025. *Artificial intelligence in the battle against disinformation and misinformation: a systematic review of challenges and approaches*. Knowledge and Information Systems, 67(4), pp.3139-3158.
+Pokhrel, S. and Banjade, S.R. (2023) ‘*Ai Content Generation Technology based on open AI language model*’, Journal of Artificial Intelligence and Capsule Networks, 5(4), pp. 534–548. doi:10.36548/jaicn.2023.4.006. <br>
+Rozputnia, B. et al. (2025) ‘*Methodological approaches to using artificial intelligence to develop creative skills in future designers*’, Environment. Technology. <br>
+Saeidnia, H.R., Hosseini, E., Lund, B., Tehrani, M.A., Zaker, S. and Molaei, S., 2025. *Artificial intelligence in the battle against disinformation and misinformation: a systematic review of challenges and approaches*. Knowledge and Information Systems, 67(4), pp.3139-3158.<br>
 
 ### Collaborative Discussion
 The full collaborative discussion in which I was involved in can be found [here](Discussion2.docx)
