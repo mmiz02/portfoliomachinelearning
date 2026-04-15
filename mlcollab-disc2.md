@@ -35,16 +35,16 @@ This discussion enhanced my understanding of the capabilities and limitations of
 
 
 ### References:
-Anderljung, M., Hazell, J. and von Knebel, M. (2024) ‘*Protecting society from ai misuse: When are restrictions on capabilities warranted?*’, AI &amp; SOCIETY, 40(5), pp. 3841–3857. doi:10.1007/s00146-024-02130-8. <br>
-Esmaeilzadeh, P. (2025) ‘*Decoding the cry for help: Ai’s emerging role in suicide risk assessment*’, AI and Ethics, 5(5), pp. 4645–4679. doi:10.1007/s43681-025-00758-w. <br>
-Fang, X. et al. (2024) ‘*Bias of AI-generated content: An examination of news produced by large language models*’, Scientific Reports, 14(1). doi:10.1038/s41598-024-55686-2. <br>
-Gebru, T. et al. (2021) ‘*Datasheets for datasets*’, Communications of the ACM, 64(12), pp. 86–92.<br>
-Hutson, M. (2021) *Robo-writers: The rise and risks of language-generating AI, Nature News*. Available at: https://www.nature.com/articles/d41586-021-00530-0 (Accessed: 28 March 2026).<br>
-Langer, M., Baum, K. and Schlicker, N. (2024) ‘*Effective human oversight of AI-based systems: A signal detection perspective on the detection of inaccurate and unfair outputs*’, Minds and Machines, 35(1). doi:10.1007/s11023-024-09701-0. <br>
-Larson, B.Z. et al. (2024) ‘*Critical thinking in the age of Generative AI’, Academy of Management Learning*; Education, 23(3), pp. 373–378. doi:10.5465/amle.2024.0338. 
-Pokhrel, S. and Banjade, S.R. (2023) ‘*Ai Content Generation Technology based on open AI language model*’, Journal of Artificial Intelligence and Capsule Networks, 5(4), pp. 534–548. doi:10.36548/jaicn.2023.4.006. <br>
-Rozputnia, B. et al. (2025) ‘*Methodological approaches to using artificial intelligence to develop creative skills in future designers*’, Environment. Technology. <br>
-Saeidnia, H.R., Hosseini, E., Lund, B., Tehrani, M.A., Zaker, S. and Molaei, S., 2025. *Artificial intelligence in the battle against disinformation and misinformation: a systematic review of challenges and approaches*. Knowledge and Information Systems, 67(4), pp.3139-3158.<br>
+Anderljung, M., Hazell, J. and von Knebel, M. (2024) ‘*Protecting society from ai misuse: When are restrictions on capabilities warranted?*’, AI &amp; SOCIETY, 40(5), pp. 3841–3857. doi:10.1007/s00146-024-02130-8. <br><br>
+Esmaeilzadeh, P. (2025) ‘*Decoding the cry for help: Ai’s emerging role in suicide risk assessment*’, AI and Ethics, 5(5), pp. 4645–4679. doi:10.1007/s43681-025-00758-w. <br><br>
+Fang, X. et al. (2024) ‘*Bias of AI-generated content: An examination of news produced by large language models*’, Scientific Reports, 14(1). doi:10.1038/s41598-024-55686-2. <br><br>
+Gebru, T. et al. (2021) ‘*Datasheets for datasets*’, Communications of the ACM, 64(12), pp. 86–92.<br><br>
+Hutson, M. (2021) *Robo-writers: The rise and risks of language-generating AI, Nature News*. Available at: https://www.nature.com/articles/d41586-021-00530-0 (Accessed: 28 March 2026).<br><br>
+Langer, M., Baum, K. and Schlicker, N. (2024) ‘*Effective human oversight of AI-based systems: A signal detection perspective on the detection of inaccurate and unfair outputs*’, Minds and Machines, 35(1). doi:10.1007/s11023-024-09701-0. <br><br>
+Larson, B.Z. et al. (2024) ‘*Critical thinking in the age of Generative AI’, Academy of Management Learning*; Education, 23(3), pp. 373–378. doi:10.5465/amle.2024.0338. <br><br>
+Pokhrel, S. and Banjade, S.R. (2023) ‘*Ai Content Generation Technology based on open AI language model*’, Journal of Artificial Intelligence and Capsule Networks, 5(4), pp. 534–548. doi:10.36548/jaicn.2023.4.006. <br><br>
+Rozputnia, B. et al. (2025) ‘*Methodological approaches to using artificial intelligence to develop creative skills in future designers*’, Environment. Technology. <br><br>
+Saeidnia, H.R., Hosseini, E., Lund, B., Tehrani, M.A., Zaker, S. and Molaei, S., 2025. *Artificial intelligence in the battle against disinformation and misinformation: a systematic review of challenges and approaches*. Knowledge and Information Systems, 67(4), pp.3139-3158.<br><br>
 
 ### Collaborative Discussion
-The full collaborative discussion in which I was involved in can be found [here](Discussion2.docx)
+The full collaborative discussion in which I was involved in can be found [here](Discussion 2.docx)
