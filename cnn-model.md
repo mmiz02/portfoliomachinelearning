@@ -10,22 +10,6 @@ Wall (2019) alludes to the fact that AI should not be privately managed but rath
 
 
 
-
 ### References:
 
 - Wall, M. (2019) Biased and wrong? Facial Recognition Tech in the dock, BBC News. Available at: https://www.bbc.com/news/business-48842750 (Accessed: 29 March 2026). 
-
-
-
-
-
-
-
-
-Run this CNN model - Convolutional Neural Networks (CNN) - Object Recognition.ipynb - and review different sections of the algorithm. Change the input image for prediction by changing the value of this variable - plt.imshow(x_test[16] - from 16 to value of your choice (1-15) and see whether the model predicts correctly.
-
-Be prepared to review your thoughts and findings during next week’s seminar.
-
-Learning Outcomes
-Articulate the legal, social, ethical and professional issues faced by machine learning professionals.
-Understand the applicability and challenges associated with different datasets for the use of machine learning algorithms.
