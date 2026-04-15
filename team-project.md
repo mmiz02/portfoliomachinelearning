@@ -1,82 +1,163 @@
-# Team Project: Clinical Trial Database Report
+# Team Project: Airbnb Business Analysis Data Science
 
-## Aim
-To collaboratively design and document a secure, scalable, and compliant database solution for a global clinical research organisation conducting clinical trials while meeting GDPR requirements (European Union, 2016).
+### Project Overview
+This team project focused on analysing Airbnb listings in New York City using a classical machine learning approach (Track 1: Regression and Clustering). The objective was to apply data science techniques to a real-world business problem and generate actionable pricing insights for Airbnb hosts.
 
-## Project Overview
-Our team, acting as Software Consultants and Developers, was contracted to design a database capable of storing, managing, and analysing sensitive, clinical and personal data. The solution needed to ensure data integrity, auditability, and compliance with international regulations, while enabling role-based access for multiple stakeholders (staff, regulators, etc.).
+The researcg question our team came up with was: <br>
+What is the optimal price range per neighbourhood_group × room_type segment that maximises booking possibility while preserving competitive host earnings? 
 
-PostgreSQL was adopted as our database management system, supported by AWS RDS for hosting and AWS S3 for unstructured data, including medical images (AWS, 2025; EMA, 2023). The system was designed around a structured data management pipeline (Figure 1) and an entity-relationship model (Figure 2), ensuring relational integrity, normalisation (3NF), and security.
+We used the AB_NYC_2019 dataset (Dgomonov, 2019), which includes listing information such as price, location, availability, room type, etc. Since actual booking data was not available we used reviews per month as a proxy for demand.
 
-![Figure 1 – Data Management Pipeline](/images/Fig1.png)
-*Figure 1: Data Management Pipeline (Developed by the team based on Williams, 2025; European Union, 2016; EMA, 2023).*
+### Data Preparation
+We began by cleaning and preparing the dataset to ensure reliable analysis including:<br>
+- Removing invalid or missing price values<br>
+- Winsorising extreme price outliers to reduce distortion<br>
+- Handling missing review data by imputing zero values<br>
+- Applying log transformations to price to address skewness<br>
+
+Exploratory analydid was done to understand how pricing varies across boroughs and room types. This revealed strong structural differences, particularly between Manhattan and outer boroughs, as well as between entire homes, entire rooms, and shared rooms. This is shown in Figure 1 below.
+
+### Machine Learning Approach
+We applied multiple classical machine learning techniques:
+
+#### Regression Models
+We trained Ridge Regression and Random Forest models to predict price based on features such as location, room type, etc.
+
+![My Image](type.png)
+*Figure 1: Room Type and neighbourhood group median nightly price (winsorised) *
+
+The Random Forest model performed better than the Ridge model with lower error (RMSE ~ 0.42 in log scale). Using this model, the top drivers of the model were depicted in Figure 2. Again, room or home type was shown as being the main price driver.
+
+![My Image](type.png)
+*Figure 1: The main top 20 price drivers – Importance of Random Forest feature *
+
+
+#### Clustering (K-Means)
+We used K-Means clustering to segment listings into distinct market groups. Optimal *k = 8* was deducted based on silhouette scores. Clear segments were identified ranging from budget listings to premium listings.
 
 
 
 
-![Figure 2 – Entity–Relationship Diagram](/images/Fig2.png)
-*Figure 2: Entity–Relationship Diagram – Clinical Trial Database (Developed by the team; compliance considerations refereced from EMA, 2023; Sarkar & Roychowdhury, 2019).*
 
 
-## Data Management Pipeline
-Our proposed pipeline included:
-1. **Data Capture:** Data is captured via electronic data capture systems in a standardised structured manner.
-2. **Validation:** Mandatory fields are enforced during data entry, and validation methods such as range checks are used to minimise entry errors.
-3. **Cleaning:** Data will be standardised and machine learning methods will be used to flag anomalies. All changes to data will be traceable.
-4. **Storage:** PostgreSQL will be used ensuring integrity, with encryption at rest and in transit.
-5. **Retrieval:** Data will have role-based access with audit trails logging access, edits, and queries.
+Clustering (K-Means)
 
-## Database Management Systsem (DBMS) Selection
-PostgreSQL was chosen due to its:
-- Reliable and flexible storage of mixed data, supporting JSON for its device data.
-- Secure linkage to external storage.
-- Support of machine learning.
-- Strong auditing, encryption, and regulatory compliance features.
-- Alternatives such as Microsoft SQL Server and NoSQL databases were evaluated but found less suitable due to vendor dependency and limited relational integrity and auditability.
+We used K-Means clustering to segment listings into distinct market groups.
 
-## Hosting Solution
-Amazon Web Services (AWS), Azure, and Google Cloud Platform were compared, after which our team selected AWS for PostgreSQL due to its:
-- Automated backups.
-- Multi-region deployment.
-- Compliance with GDPR.
-- Secure storage for unstructured data by integrating with AWS S3.
+Optimal k = 8 based on silhouette scores
 
-## My Contribution to this project
-My contribution included researching hosting solutions, choosing datatypes for the attributes in the ERD, and structuring the management process. I also consolidated and proofread the document before submission.
+Identified clear segments ranging from budget listings to premium listings
 
-## Online Meeting Minutes and Collaboration
-Our team started collaborating over email. After coming up with a rough idea of the type of company, the ERD, and the database pipeline, we held meetings on Zoom to distinguish between our roles and document our progress, ensuring effective collaboration.
+Demand Modelling
 
-**23rd August 2025** - The current draft was discussed in line with the task instructions. I proposed building on the entity description and database build, to which Sonya was assigned. Dean added further suggestions regarding the database build. I was assigned with researching hosting solutions.
+We used Logistic Regression to estimate the probability of high demand, defined using reviews per month within each segment.
 
-We all agreed to review the document as a whole and edit as needed. Sonya and I agreed to review the lecturecast in Unit 6 to ensure our project aligned with expectations. It was agreed that we would have a finalised draft by 1st September.
+This allowed us to combine:
 
-**3rd September 2025** - Could not attend this meeting as I had prior arrangements. The final version of the report was agreed upon and sent to me for final proofreading.
+Expected Value = Price × Probability of High Demand
 
-We collaborated using shared GoogleDocs, which improved transparency, traceability, and accountability.
+4. Pricing Strategy and Business Insights
 
-Alongside the assignment, we also submitted a Peer Review Form to evaluate our teamwork. I gave my teammates a positive review since we collaborated well together and divided the work fairly, and this was reflected in the lecturer's feedback.
+We developed a pricing framework that balanced:
 
-## Feedback and Reflection
-The feedback received from the lecturer was very positive which gave me the confidence to start working on the Executive Summary, knowing I was on the right path.
+Booking probability
 
-Through this project I learned more about database pipelines and management systems. I also got a deeper understanding of hosting solutions and DBMS selection depending on company needs and alignment with regulatory and GDPR requirememts.
+Expected revenue
 
-## Skills Developed
-- Database design and relational modelling (ERD, 3NF),
-- Data pipeline design and validation techniques,
-- Technical writing and documentation,
-- Team communication and collaboration using remote tools.
+Market segment characteristics
 
-## References
-Amazon Web Services (2025). *Amazon RDS for PostgreSQL – Features.* Available at: [https://aws.amazon.com/rds/postgresql/](https://aws.amazon.com/rds/postgresql/)  
+This produced three pricing strategies:
 
-European Medicines Agency (2023). *Guideline on computerised systems and electronic data in clinical trials (EMA/INS/GCP/112288/2023).* EMA, Amsterdam.  
+Booking-maximising price
 
-European Union (2016). *Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (GDPR).* Available at: [https://eur-lex.europa.eu/eli/reg/2016/679/oj](https://eur-lex.europa.eu/eli/reg/2016/679/oj)  
+Revenue-maximising price
 
-Sarkar, T. & Roychowdhury, S. (2019) Data Wrangling with Python: creating actionable data from raw sources. 1st edition. Birmingham; Packt Publishing Ltd.
+Compromise price (recommended strategy)
 
-Williams, G. (2025) Deciphering Big Data [module materials]. University of Essex Online, July- October.
+Overall, results showed that mid-range pricing often achieved the best balance between demand and earnings, and that pricing must be tailored by both neighbourhood and room type.
 
-[← Back to Home](https://mmiz02.github.io/eportfolio/)
+5. Key Findings
+
+Location and room type are the strongest pricing determinants
+
+Demand follows a non-linear relationship with price
+
+The market can be meaningfully segmented into distinct clusters
+
+Data-driven pricing can improve both occupancy and revenue outcomes
+
+6. Team Working and Process Reflection (INSERT HERE – IMPORTANT)
+
+👉 This is where you describe how your group actually worked.
+
+Include:
+
+How tasks were divided (e.g., modelling, cleaning, visuals, report writing)
+
+Tools used (Python, Jupyter, sklearn, etc.)
+
+Collaboration style (weekly meetings, GitHub, shared notebooks, etc.)
+
+Any communication issues or coordination strategies
+
+Insert here:
+
+[Your description of team workflow, collaboration, and division of labour]
+
+7. Challenges and Limitations (INSERT HERE)
+
+👉 This section is important for reflection marks.
+
+You can include things like:
+
+Missing real booking/occupancy data
+
+Using reviews as a proxy for demand
+
+Outlier handling decisions (and why they were needed)
+
+Model limitations (e.g., no temporal data, limited features)
+
+Clustering interpretability issues
+
+Insert here:
+
+[Your specific challenges and how you addressed them]
+
+8. Lecturer Feedback and Improvements (INSERT HERE)
+
+👉 This is where you show learning and critical improvement.
+
+Include:
+
+What feedback you received
+
+What you would improve (e.g., better validation, more features, cross-validation, feature engineering)
+
+How you would extend the project
+
+Insert here:
+
+[Lecturer feedback + your response to it]
+
+9. Conclusion
+
+This project demonstrated how classical machine learning can be applied to a real-world platform economy problem. By combining regression, clustering, and classification techniques, we were able to generate actionable insights for Airbnb pricing strategy.
+
+The work highlights the importance of data preprocessing, feature selection, and segment-specific modelling when dealing with heterogeneous marketplace data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[← Back to Home](https://mmiz02.github.io/portfoliomachinelearning/)
+
