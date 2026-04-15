@@ -22,24 +22,24 @@ The scatter plot showed a strong positive correlation.
 
 Firstly, the data was tested by increasing noise:
 
-'''python
+```python
 data2 = data1 + (30*randn(1000))
-'''
+```
 The Pearson correlation decreased to 0.549 and covariance reduced slightly due to more spread (399). The scatter became wider, showing weaker linear association.
 
 Next, a negative relationship was introduced 
 
-'''python
+```python
 data2 = 200 - (data1 + (10*randn(1000)))
-'''
+```
 
 The Pearson correlation became -0.883 with a negative covariance (-390), reflecting the inverse relationship. In addition, the scatter sloped downward.
 
 A linear relation was then introduced:
 
-'''python
+```python
 data2 = data1 * 1.5
-'''
+```
 The Pearson correlation = 1.0 with a covariance of 578 (vastly increased). The scatter plot formed a straight line, confirming perfect correlation. 
 
 Finally, the random seed was changed (seed = 2):
@@ -54,31 +54,31 @@ This shows that both correlation and covariance depend on sample generation. The
 
 The relationship between two variables using Pearson correlation and linear regression was explored. The original dataset was:
 
-'''python
+```python
 x = [5,7,8,7,2,17,2,9,4,11,12,9,6]
 y = [99,86,87,88,111,86,103,87,94,78,77,85,86]
-'''
+```
 
 Pearson correlation = -0.759
 
 The scatter plot showed a moderately strong negative correlation.
 
 As an experiment, the first two y-values were modified to add outliers:
-'''python
+```python
 y[0] = 120
 y[1] = 130
-'''
+```
 This time, the Pearson correlation was -0.546 and the regression line slope decreased. Such outliers weakened the correlation and shifted the regression line, demonstrating that extreme data points can significantly influence both correlation and predictions.
 
 For the next part of the exercise, the regression prediction at x = 10 was a speed of 85.59.
 New y-values were predicted using:
 
-'''python
+```python
 def myfunc(x):
   return intercept + slope * x 
 
 speed = myfunc(y)
-'''
+```
 
 Where y = 15, 0 for which the outputs were 76.84 and 103.11 respectively.
 
@@ -101,9 +101,9 @@ This value was derived by taking the initial value of CO2 emissions and adding t
 107.2087328 + (1000 * 0.00755095) = 114.75968
 
 This was confirmed by using the following code:
-'''python
+```python
 predictedCO2 = regr.predict([[3300, 1300]])
-'''
+```
 The same output of 114.75968 was achieved.
 
 As the weight or volume increased, so did the CO2 emissions. Every time the increase was proportional to the coefficient depending on whether the Weight, Volume, or both increased. Model predictions matched manual calculations and behaviour was as expected.
@@ -112,19 +112,19 @@ As the weight or volume increased, so did the CO2 emissions. Every time the incr
 ### Ex 4 Polynomial Regression
 The following dataset was used to predict a value at x = 17:
 
-'''python
+```python
 x = [1,2,3,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20] 
 y = [100,90,80,60,60,55,60,65,70,70,75,76,78,79,90,99,99,100]
-'''
+```
 
 This produced a prediction of approximately 90.55.
 
 An extreme outlier was then added:
 
-'''python
+```python
 x.append(500) 
 y.append(10)
-'''
+```
 
 The prediction then changed to approximately 87.07.
 
@@ -132,10 +132,10 @@ This happened because polynomial regression fits one curve across all data point
 
 In an earlier experiment using the following irregularly spaced large values:
 
-'''python
+```python
 x = [1,2,3,5,6,7,8,9,10,12,13,14,154,60,79,80,34,35] 
 y = [100,90,80,60,60,55,60,65,70,70,75,76,78,79,90,99,99,100]
-'''
+```
 The prediction was even lower (around 76.76), showing that widely spread datasets reduce prediction reliability.
 
 ### Conclusion
