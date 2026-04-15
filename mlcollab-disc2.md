@@ -47,4 +47,4 @@ Rozputnia, B. et al. (2025) ‘*Methodological approaches to using artificial in
 Saeidnia, H.R., Hosseini, E., Lund, B., Tehrani, M.A., Zaker, S. and Molaei, S., 2025. *Artificial intelligence in the battle against disinformation and misinformation: a systematic review of challenges and approaches*. Knowledge and Information Systems, 67(4), pp.3139-3158.<br><br>
 
 ### Collaborative Discussion
-The full collaborative discussion in which I was involved in can be found [here](Discussion 2.docx)
+The full collaborative discussion in which I was involved in can be found [here](Discussion2.docx)
