@@ -12,11 +12,11 @@ Data values were modified in the four notebooks to observe how the pattern of po
 
 ### Ex 1 Covariance Pearson Correlation
 
-Two datasets were generated to explore how correlation and covariance reflect the relationship between two variables. The original dataset *data2 = data1 + (10*randn(1000))* produced :
-data1: mean=100.776 stdv=19.620 
-data2: mean=151.050 stdv=22.358 
-Covariance: 389.755 
-Pearsons correlation: 0.888
+Two datasets were generated to explore how correlation and covariance reflect the relationship between two variables. The original dataset *data2 = data1 + (10*randn(1000))* produced :<br>
+data1: mean=100.776 stdv=19.620 <br>
+data2: mean=151.050 stdv=22.358 <br>
+Covariance: 389.755 <br>
+Pearsons correlation: 0.888<br>
 
 The scatter plot showed a strong positive correlation.
 
