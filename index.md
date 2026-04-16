@@ -35,7 +35,6 @@ que?!?!?!?This e-portfolio has significantly contributed to my professional and 
 *   [Week 9: CNN Model Activity](cnn-model.md)
 *   [Week 10: Unit 10 Seminar Preparation](sem10.md)
 *   [Week 11: Model Performance Measurement](model-perf.md)
-*   [Week 12: Reflective Essay](reflect.md)
 
 ---
 
