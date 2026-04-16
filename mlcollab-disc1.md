@@ -46,7 +46,7 @@ Toyota Motor Corporation (2023). Deepening Ties in Difficult Times—1 Year on f
 ### Collaborative Discussion
 The full collaborative discussion in which I was involved in can be found [here](CollabDisc1.docx)
 
-
+[← Back to Home](https://mmiz02.github.io/portfoliomachinelearning/)
 
 
 
