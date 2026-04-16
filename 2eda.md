@@ -71,4 +71,5 @@ For all the Python code I used, click [here](eda2.py)
 
 Workign with this dataset helped me gain more familiarity with EDA steps and methodology and helped me understand the importance of data cleaning, such as handling missing values, encoding catgeorical variables, and correcting inconsistent entries. Visualisations like scatter plots and correlation heatmaps clairified relationships between different variables. Overall, this exercise reinforced how proper data preparation and exploratory analysis are essential for interpreting patterns and making informed decisions in real-world datasets.
 
+[← Back to Home](https://mmiz02.github.io/portfoliomachinelearning/)
 
