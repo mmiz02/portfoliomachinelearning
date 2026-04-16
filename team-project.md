@@ -29,135 +29,76 @@ We trained Ridge Regression and Random Forest models to predict price based on f
 The Random Forest model performed better than the Ridge model with lower error (RMSE ~ 0.42 in log scale). Using this model, the top drivers of the model were depicted in Figure 2. Again, room or home type was shown as being the main price driver.
 
 ![My Image](type.png)
-*Figure 1: The main top 20 price drivers – Importance of Random Forest feature *
-
+*Figure 2: The main top 20 price drivers – Importance of Random Forest feature *
 
 #### Clustering (K-Means)
 We used K-Means clustering to segment listings into distinct market groups. Optimal *k = 8* was deducted based on silhouette scores. Clear segments were identified ranging from budget listings to premium listings.
 
+#### Demand modelling
+We used Logistic Regression to estimate the probability of high demand, defined using review per month witin each segment.
 
+This allowed us to combine:<br>
+Expected Value = Price x Probability og High Demand
 
-
-
-
-Clustering (K-Means)
-
-We used K-Means clustering to segment listings into distinct market groups.
-
-Optimal k = 8 based on silhouette scores
-
-Identified clear segments ranging from budget listings to premium listings
-
-Demand Modelling
-
-We used Logistic Regression to estimate the probability of high demand, defined using reviews per month within each segment.
-
-This allowed us to combine:
-
-Expected Value = Price × Probability of High Demand
-
-4. Pricing Strategy and Business Insights
-
-We developed a pricing framework that balanced:
-
-Booking probability
-
-Expected revenue
-
-Market segment characteristics
+### Pricing Strategy and Business Insights
+We developed a pricing frameork that balanced:
+- Booking probability<br>
+- Expected revenue<br>
+- Market segment characteristics<br>
 
 This produced three pricing strategies:
+- Booking-maximising price<br>
+- Revenue-maximising price<br>
+- Compromise price<br>
 
-Booking-maximising price
+Overall, results showed that mid-range pricing often achieved the best balance between demand and earnings (Fig. 3), and that pricing must be tailored by both neighbourhood and room type.
 
-Revenue-maximising price
+![My Image](demand.png)
+*Figure 3: Monthly Average Reviews Throughout Price Bins (Demand Proxy)  *
 
-Compromise price (recommended strategy)
+### Key Findings
+Location and room type are the strongest pricing determinans and demand follows a non-linear relationship with price. Figure 4 also confirms that the market can be meaningfully segmented into distinct clusters.
 
-Overall, results showed that mid-range pricing often achieved the best balance between demand and earnings, and that pricing must be tailored by both neighbourhood and room type.
+![My Image](demand.png)
+*Figure 4: Neighbourhood group × room type recommended compromise price   *
 
-5. Key Findings
+Through this project, we can confirm that using data to drive pricing can improve both occupancy and revenue outcomes.
 
-Location and room type are the strongest pricing determinants
+### Team Working and Process Reflection
 
-Demand follows a non-linear relationship with price
+The teamwork was kickstarted by an individual that asked everyone for their preferred email and contact method and prepared a shared Google Drive. From here, we had an online Zoom meeting where we decided that we would divide ourselves depending on who would work on the code and who would work on the report. The agenda for the first meeting can be viewed [here](agenda.docx).
 
-The market can be meaningfully segmented into distinct clusters
+We then booked another meeting where we would decide on the research question. In the second meeting, we decided between various research [questions](ideas.docx) on the best one. We also divided ourselves into 2 groups where 3 of us worked on the code and the others worked on the report. Personally, I worked on the report, where I developed the executive summary and the methodology. I also proof-read once the report was finished. Python was used to produce the diagrams and to carry out Track 1 (classical machine learning), and the code used can be found [here](code.py) and all the outputs can be found [here](outputs.zip). The data pre-processing steps can be found [here](task2.docx), even though more was added along the way but this was the initial idea. 
 
-Data-driven pricing can improve both occupancy and revenue outcomes
+While the code and report were being written, we used Google Docs to collaborate and had everything shared on our Google Drive. To communicate, we mainly used Whatsapp since we did not find the need to have another meeting and our free time did not align easily with each other.
 
-6. Team Working and Process Reflection (INSERT HERE – IMPORTANT)
+Overall, all individuals collaborated as a team and everyone was more than happy to do their part. One minor issue was that 2 individuals did most of the coding so the other individual ended up not really contributing. He then attempted to draw up an appendix to add to the report, however the group consensus was that the appendix was not needed.
 
-👉 This is where you describe how your group actually worked.
+### Challenges and Limitations
 
-Include:
+- There was some missing data,
+- The use of reviews as a proxy for demand,
+- Did not take into account the proximity to landmarks or transport, only took into condieration the neighborhood.
+- Data was from 2019 so did not capture trends over time,
+- Feature limitations - no photos or information of amenities was included,
+- K-means assumes spherical clusters and may not capture complex strutures,
+- Missing numerical features were imputed using the median and standardised whilst missing categorical features were imputed using the most frequenct value and encoded using one-hot encoding. This may have affected the accuracy.
 
-How tasks were divided (e.g., modelling, cleaning, visuals, report writing)
+### Lecturer feedback an Improvements
 
-Tools used (Python, Jupyter, sklearn, etc.)
+The feedback highlighted that the project was well-exeuted overall, particularly in terms of technical implementation. The machine learning methodology was identified as a key strength, demonstrating a strong understanding of regression, clustering, and data preprocessing techniques. Visualisations and report structure were also positively received, with clear communication suitabel for a business audience.
 
-Collaboration style (weekly meetings, GitHub, shared notebooks, etc.)
+However,several areas for improvement were identified. Firstly, while the business question was relevant and well-justified, it could have been expanded to consider broader strategic implications. Similarly, the final recommendation could have been better linked to the analytical results.
 
-Any communication issues or coordination strategies
+From a technical perspective, the rationale regarding why that particular algorithm was chosen could have been better justified. Additionally, the report would have benefitted from clearer presentation of model diagnostics (e.g. performance metrics in tabular form) alongisd brief intepretation.
 
-Insert here:
+Another key limitation was the absence of a Python appendix. No snippet codes were included in the report either. This was due to a miscommunication between the group where most of the team though that the Python was being uploaded separately. This should have been clarified between us before submission. This reduced reproducibility and transparency.
 
-[Your description of team workflow, collaboration, and division of labour]
+### Reflection and Future Improvements
 
-7. Challenges and Limitations (INSERT HERE)
+In future work, greater emphasis wuld be placed on explicitly linking insights to business recommendations to strengthen decision-making relevance. I would also justify model selection more critically by comparing alternative algorithms and inlcuding evaluation summaries. Moreover, I would incorporate more advanced visualisations, as the lecturer feedback said, such as GIS-based mapping. 
 
-👉 This section is important for reflection marks.
-
-You can include things like:
-
-Missing real booking/occupancy data
-
-Using reviews as a proxy for demand
-
-Outlier handling decisions (and why they were needed)
-
-Model limitations (e.g., no temporal data, limited features)
-
-Clustering interpretability issues
-
-Insert here:
-
-[Your specific challenges and how you addressed them]
-
-8. Lecturer Feedback and Improvements (INSERT HERE)
-
-👉 This is where you show learning and critical improvement.
-
-Include:
-
-What feedback you received
-
-What you would improve (e.g., better validation, more features, cross-validation, feature engineering)
-
-How you would extend the project
-
-Insert here:
-
-[Lecturer feedback + your response to it]
-
-9. Conclusion
-
-This project demonstrated how classical machine learning can be applied to a real-world platform economy problem. By combining regression, clustering, and classification techniques, we were able to generate actionable insights for Airbnb pricing strategy.
-
-The work highlights the importance of data preprocessing, feature selection, and segment-specific modelling when dealing with heterogeneous marketplace data.
-
-
-
-
-
-
-
-
-
-
-
-
-
+Finally, I would ensure that all submission requirements are fully met, including adequate code addition.
 
 [← Back to Home](https://mmiz02.github.io/portfoliomachinelearning/)
 
