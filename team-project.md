@@ -100,5 +100,13 @@ In future work, greater emphasis wuld be placed on explicitly linking insights t
 
 Finally, I would ensure that all submission requirements are fully met, including adequate code addition.
 
+### Evaluation after carrying out Unit 11 Project
+
+Unit 6 focues on classical machine learning approach to structured data, uing regression and clustering to generate interpretable pricing and segmentation insights. The emphasis was on business applicability, feature relationships, and clear decision-mkaing outputs.
+
+On the other hand, Unit 11 used deep elarning technique, specificallt CNNs and transfer learning, on image data. This required more complex model design, computer power, hyperparameter tuning, and a focus on performance and generalisation rather than interpretability. A key difference was the data type used. Unit 6 dealt with tabular data with explicit features, while Unit 11 required automatic feature extraction fromlow resolution images. As a result, Unit 6 produced more directly actionable insights, whereas Unit 11 focused on model performance and architectural comparison.
+
+Overall, Unit 6 developed core machine learning and business analytical skills, while Unit 11 expanded technical capability into deep learning.
+
 [← Back to Home](https://mmiz02.github.io/portfoliomachinelearning/)
 
