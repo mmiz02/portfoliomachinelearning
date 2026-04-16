@@ -24,12 +24,12 @@ We applied multiple classical machine learning techniques:
 We trained Ridge Regression and Random Forest models to predict price based on features such as location, room type, etc.
 
 ![My Image](type.png)
-*Figure 1: Room Type and neighbourhood group median nightly price (winsorised) *
+*Figure 1: Room Type and neighbourhood group median nightly price (winsorised)*
 
 The Random Forest model performed better than the Ridge model with lower error (RMSE ~ 0.42 in log scale). Using this model, the top drivers of the model were depicted in Figure 2. Again, room or home type was shown as being the main price driver.
 
 ![My Image](type.png)
-*Figure 2: The main top 20 price drivers – Importance of Random Forest feature *
+*Figure 2: The main top 20 price drivers – Importance of Random Forest feature*
 
 #### Clustering (K-Means)
 We used K-Means clustering to segment listings into distinct market groups. Optimal *k = 8* was deducted based on silhouette scores. Clear segments were identified ranging from budget listings to premium listings.
@@ -54,13 +54,13 @@ This produced three pricing strategies:
 Overall, results showed that mid-range pricing often achieved the best balance between demand and earnings (Fig. 3), and that pricing must be tailored by both neighbourhood and room type.
 
 ![My Image](demand.png)
-*Figure 3: Monthly Average Reviews Throughout Price Bins (Demand Proxy)  *
+*Figure 3: Monthly Average Reviews Throughout Price Bins (Demand Proxy)*
 
 ### Key Findings
 Location and room type are the strongest pricing determinans and demand follows a non-linear relationship with price. Figure 4 also confirms that the market can be meaningfully segmented into distinct clusters.
 
 ![My Image](demand.png)
-*Figure 4: Neighbourhood group × room type recommended compromise price   *
+*Figure 4: Neighbourhood group × room type recommended compromise price*
 
 Through this project, we can confirm that using data to drive pricing can improve both occupancy and revenue outcomes.
 
