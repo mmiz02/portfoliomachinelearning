@@ -44,3 +44,4 @@ The code used for this task may be viewed [here](sem6.ipynb).
 - Performing clustering requires careful attention not only to mathematical  methods but also to the dataset itself. Misinterpretation of clusters could lead to incorrect conclusions or bias.
 - This task highlighted the challenges of using K-Means with mixed-type datsets. The categorical column 'species' could not be directly included and had to be removed, and standardising numeric features was necessary. This emphasises the need for data preprocessing. Additionally, visualisations helped assess the applicability of K-Means for this particular dataset.
 - Following a structured notebook and documenting each step improved workflow, reflecting real-world, collaborative environments.
+
