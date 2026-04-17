@@ -4,13 +4,13 @@ For this activity, a demo was first run of the fuel_consumption.ipynb with data 
 
 ### Task A: Correlation
 
-* Data Preprocessing - Global_Population.csv and Global_GDP.csv were loaded as df and df2, respectively. The year columns (2001-2021 for df and 2001-2020 for df2) were converted to numeric, coercing non-numeric vales to NaN. Missing values in each row were filled with the row mean. Through further exploration, it was noticed that certain rows were fully empty, meaning the row mean was being coputed as NaN. Therefore, the following line was introduced to drop such rows:
+* Data Preprocessing - Global_Population.csv and Global_GDP.csv were loaded as df and df2, respectively. The year columns (2001-2021 for df and 2001-2020 for df2) were converted to numeric values, coercing non-numeric vales to NaN. Missing values in each row were filled with the row mean. Through further exploration, it was noticed that certain rows were fully empty, meaning the row mean was being computed as NaN. Therefore, the following line was introduced to drop such rows:
 
 clean_df = merged_df.dropna(subset=['Mean_Population', 'Mean_PerCapita_GDP'])
 
 This caused the removal of 10 rows, including small territories, bank clasifications, and other non-standard entries. Dropping these ensured that only valid countries are included in the correlation analysis. Computed Mean_Population and Mean_PerCapita_GDP for each country. The datasets were merged on Country Name.
 
-* Analysis - The scatter plot showed a general upward trend: countries with higher population tend to have a higher GDP per capita, shown in Figure 1. A Pearson correlation coefficient of 0.72 (moderately strong) and p-value ≈  1.85 e-42, confirming statistical significance
+* Analysis - The scatter plot showed a general upward trend: countries with higher population tend to have a higher GDP per capita, shown in Figure 1. A Pearson correlation coefficient of 0.72 (moderately strong) and p-value ≈  1.85 e-42, confirming statistical significance.
 
 ![My Image](popvsgdp.png)
 *Figure 1: Scatter plot showing mean GDP per capita against mean population.*
@@ -47,4 +47,6 @@ This activity highlighted key learning outcomes:
 - Pre-processing, analysis, and visualisation required systematic problem-solving and workflow, reflecting the need for real-world collaboration in a professional team setting to include clear code, plots, and explanations throughout, to be interpretable by colleagues.
 
 ### Code
-The code can be found [here](sem4.ipynb)
+The code can be found [here](sem4.ipynb).
+
+[← Back to Home](https://mmiz02.github.io/portfoliomachinelearning/)
