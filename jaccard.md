@@ -48,3 +48,5 @@ This exercise also raised legal, social, ethical, and professional consideration
 
 ### References
 *Jaccard similarity* (2025) *GeeksforGeeks*. Available at: https://www.geeksforgeeks.org/python/jaccard-similarity/ (Accessed: 19 March 2026). 
+
+[← Back to Home](https://mmiz02.github.io/portfoliomachinelearning/)
