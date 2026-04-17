@@ -16,4 +16,6 @@ These activities helped me develop a clear understanding of the applicability an
 - The choice of activation function and network architecture can significantly affect learning and convergence. <br>
 - Iterative weight adjustments demonstrate the importance of prroper learning rates, initialisation, and handling of potential vanishing gradient issues. <br>
 
-Overall, this activity reinforced my practical understanding of perceptrons and MLPs, and highlighted the limitations of single-layer models, the importanc of datas structure, and nthe role of activation functions in extending model capability.
+Overall, this activity reinforced my practical understanding of perceptrons and MLPs, and highlighted the limitations of single-layer models, the importance of data structure, and the role of activation functions in extending model capability.
+
+[← Back to Home](https://mmiz02.github.io/portfoliomachinelearning/)
