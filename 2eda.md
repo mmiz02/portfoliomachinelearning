@@ -11,7 +11,7 @@ EDA was done on the Auto-mpg dataset to:
 ## Method
 The dataset used was the [auto_mpg dataset](auto-mpg.csv) on Google Colab, using Python.
 
-The shape of the dataset was checked, showin 398 rows and 9 columns. df.info() was used to learn more about the dataset, showing that the 9 columns were mpg, cylinders, displacement, horsepower, weight, acceleration, model year, origin, and car name. mpg, displacement, and acceleration were floats, cylinders, weight, model year, and origin were integers, and horsepower and car names were objects. The dataset used around 28kB of memory.
+The shape of the dataset was checked, showing 398 rows and 9 columns. df.info() was used to learn more about the dataset, showing that the 9 columns were mpg, cylinders, displacement, horsepower, weight, acceleration, model year, origin, and car name. mpg, displacement, and acceleration were floats, cylinders, weight, model year, and origin were integers, and horsepower and car names were objects. The dataset used around 28kB of memory.
 
 df.head() was used to get a general idea of what the dataset looked like. 
 
@@ -27,7 +27,7 @@ Next, code mapping was introduced to change car manufacturer into an integer. Th
 
 mpg, cylinders, displacement, horsepower, weight, acceleration, model year, and origin were put in a data frame called numeric_cols to calculate skewness and kurtosis. The following was outputted:
 
-Skewness: <br>
+**Skewness:** <br>
  mpg             0.457092 <br>
 cylinders       0.508109 <br>
 displacement    0.701669 <br>
@@ -38,7 +38,7 @@ model year      0.019688 <br>
 origin          0.915185<br>
 dtype: float64
 
-Kurtosis:<br>
+**Kurtosis:**<br>
  mpg            -0.515993 <br>
 cylinders      -1.398199 <br>
 displacement   -0.778317 <br>
@@ -49,7 +49,7 @@ model year     -1.167446 <br>
 origin         -0.841885 <br>
 dtype: float64
 
-The skewness results indicate that most variables are positively skewed, meaning their distributions have longer right tails. Variables such as horsepower (1.09) and origin (0.92) show the strongest right skew, suggesting the presence of higher-value outliers. Other variables like mpg, cylinders, displacement, and weight show moderate positive skew (0.45 - 0.70), while model year (0.02) is apprxoimately symmetrical.
+The skewness results indicate that most variables are positively skewed, meaning their distributions have longer right tails. Variables such as horsepower (1.09) and origin (0.92) show the strongest right skew, suggesting the presence of higher-value outliers. Other variables like mpg, cylinders, displacement, and weight show moderate positive skew (0.45 - 0.70), while model year (0.02) is approximately symmetrical.
 
 The kurtosis values are mostly negative, indicating platykurtic distributions (flatter than a normal distribution with lighter tails). This is evident for mpg, cylinders, displacement, weight, model year, and origin. However, horsepower (0.70) and acceleration (0.44) show slightly positive kurtosis, suggesting a somewhat more peaked distributions with heavier tails compared to the normal distributions. Overall, the data demonstrates non-normality, particularly due to right skewness in horsepower and origin.
 
@@ -60,7 +60,7 @@ The skewness and kurtosis for all numeric columns were then plotted, as well as 
 ![My Image](heatmap.png) <br>
 *Figure 3: Correlation heatmap for all numeric variables.*
 
-Finally, scatter plots were outputted to show the relationship between various variables includeing the mpg vs weight, horsepower, and displacement respectively, and showing weight vs horsepower. The miles per gallon show an exponential or curvilinear decrease as weight, horsepower and displacement increase whilst, weight shows an almost linear increase with horsepower. These observed relationships demonstrate that heavier vehicles with higher horsepower and larger engine displacement tend to have lower fuel efficiency. Conversely, as weight increases, horsepower also rises almost linerly, indicating that more powerful cars are generally heavier. These patterns highlight trade-offs between performance and fuel economy that are important for vehicle design.
+Finally, scatter plots were outputted to show the relationship between various variables including the mpg vs weight, horsepower, and displacement respectively, and showing weight vs horsepower. The miles per gallon show an exponential or curvilinear decrease as weight, horsepower and displacement increase whilst, weight shows an almost linear increase with horsepower. These observed relationships demonstrate that heavier vehicles with higher horsepower and larger engine displacement tend to have lower fuel efficiency. Conversely, as weight increases, horsepower also rises almost linearly, indicating that more powerful cars are generally heavier. These patterns highlight trade-offs between performance and fuel economy that are important for vehicle design.
 
 ![My Image](scatter.png)
 *Figure 4: Scatter plots showing relationships between MPG, Weight, Horsepower, and Displacement.*
@@ -69,7 +69,7 @@ For all the Python code I used, click [here](eda2.py)
 
 ## Reflection
 
-Workign with this dataset helped me gain more familiarity with EDA steps and methodology and helped me understand the importance of data cleaning, such as handling missing values, encoding catgeorical variables, and correcting inconsistent entries. Visualisations like scatter plots and correlation heatmaps clairified relationships between different variables. Overall, this exercise reinforced how proper data preparation and exploratory analysis are essential for interpreting patterns and making informed decisions in real-world datasets.
+Working with this dataset helped me gain more familiarity with EDA steps and methodology and helped me understand the importance of data cleaning, such as handling missing values, encoding categorical variables, and correcting inconsistent entries. Visualisations like scatter plots and correlation heatmaps clarified relationships between different variables. Overall, this exercise reinforced how proper data preparation and exploratory analysis are essential for interpreting patterns and making informed decisions in real-world datasets.
 
 [← Back to Home](https://mmiz02.github.io/portfoliomachinelearning/)
 
