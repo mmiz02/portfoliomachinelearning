@@ -1,6 +1,6 @@
 # Unit 6 Seminar Preparation - K-Means Clustering Tutorial
 
-This week, the focus continued on k-means clustering. Preparing for the Seminar 6 lecture, the K-Means demon notebook.ipyb was opened in Jupyter Notebook and  Cust_Segmentation.csv was downloaded from Kaggle. The cells were run to become familiar with how to develop a k-means clustering model. Following the methods utilised, the task below was carried out:
+This week, the focus continued on K-means clustering. Preparing for the Seminar 6 lecture, the K-Means demon notebook.ipyb was opened in Jupyter Notebook and  Cust_Segmentation.csv was downloaded from Kaggle. The cells were run to become familiar with how to develop a K-means clustering model. Following the methods utilised, the task below was carried out:
 
 ### Task A: Iris data
 K-Means clustering was performed on the dataset, iris.csv (from the UCI Machine Learning Repository). 
@@ -32,7 +32,7 @@ Upon clustering at K = 3, the similarity of clusters to the actual species label
 - Cluster 1: Mostly versicolor (39) with some virginica (14), meaning K-Means mixed these two species.<br>
 - Cluster 2: Mostly virginica (36) with some versicolor (11), meaning K-Means mixed these two species.<br>
 
-Confirming this, a scatter plot was created, where the clusters were coloured differently, the markers' sizes were proportional to their septal_width, and petal_width against petal_length was plotted (Fig.3). This shows that one cluster is being wellseparated but that clusters 1 and 2 have some overlap.
+Confirming this, a scatter plot was created, where the clusters were coloured differently, the markers' sizes were proportional to their septal_width, and petal_width against petal_length was plotted (Fig.3). This shows that one cluster is being well separated but that clusters 1 and 2 have some overlap.
 
 ![My Image](scatter.png)
 *Figure 3: Scatter plot of Iris data showing 3 different clusters.*
@@ -45,3 +45,4 @@ The code used for this task may be viewed [here](sem6.ipynb).
 - This task highlighted the challenges of using K-Means with mixed-type datsets. The categorical column 'species' could not be directly included and had to be removed, and standardising numeric features was necessary. This emphasises the need for data preprocessing. Additionally, visualisations helped assess the applicability of K-Means for this particular dataset.
 - Following a structured notebook and documenting each step improved workflow, reflecting real-world, collaborative environments.
 
+[← Back to Home](https://mmiz02.github.io/portfoliomachinelearning/)
