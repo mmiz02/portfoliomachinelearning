@@ -2,7 +2,7 @@
 
 Over three weeks, I participated in a collaborative discussion exploring the legal and ethical views along with the significant benefits and risks of AI-generated writing, including ways of possibly mitigating such risks. The discussion included insights from Hutson (2021) and academic literature.
 
-### Week 1 - My Initial Post
+### Week 1: My Initial Post
 
 In my initial post, I examined both the advantages and risks of AI-generated writing, based on Hutson (2021). I argue that AI writers provide clear benefits at an administrative level, particularly in improving efficiency, automating repetitive tasks, and generating content quickly. These strengths align with key goals in machine learning, such as optimisation and scalability (Pokhrel & Banjade, 2023).
 
@@ -10,22 +10,22 @@ However, I emphasised a fundamental limitation: AI systems rely on statistical r
 
 I also discussed how these limitations become more significant in areas such as journalism and education, where accuracy and critical interpretation are essential. Additionally, I highlighted the growing concern that students may rely overtly on AI tools, potentially reducing independent research and critical thinking skills (Larson et al., 2024).
 
-Finally, I also addressed ethical concerns, including the potential for harmful, racist, or mysogynistic outputs. I concluded that although AI writers offer substantial beenfits, their usemust be carefully managed through human oversight and validation to reduce risks related to reliability and misuse.
+Finally, I also addressed ethical concerns, including the potential for harmful, racist, or mysogynistic outputs. I concluded that although AI writers offer substantial beenfits, their use must be carefully managed through human oversight and validation to reduce risks related to reliability and misuse.
 
 ### Week 2: Peer Responses
 
 I engaged with my colleagues', reflecting on the broader risks and implications associated with AI systems. These discussions highlighed how technical limitations, such as hallucinations and the lack of true semantic understanding can impact creativity and critical thinking. The potential for harm is especially evident in sensitive contexts such as mental health support, where inappropriate or unsafe responses may have severe outcomes. While AI demonstrates promising capabilities, such as early detection of suicidal risk through patten recognition and scalability, significant clinical, technical, and ethical challenges remain (Esmaeilzadeh, 2025). This reinforces the need for robust regulatory and ethical frameworks, alongside continued research and real-world validation. Additionally, proposals for stricter restrictions on high-risk capabilities highlight the importance of carefully governing AI deployment in contexts where the potential for humans to be harmed is high (Anderljung et al., 2025).
 
-Concerns around bias and misinformation further emphasises these risks. Evidence suggests that large langiage models can exhibit racial and gender bias, even where mitigation strategies such as reinforcement learning from human feedbakc are supplied (Fang et al., 2024). In fact, sometimes, this only makes it worse if it manages to bypass this. This demonstrates the need for for both improved filtering mechanisms and more comprehensive bias mitigation approaches.
+Concerns around bias and misinformation further emphasises these risks. Evidence suggests that large langiage models can exhibit racial and gender bias, even where mitigation strategies such as reinforcement learning from human feedback are supplied (Fang et al., 2024). In fact, sometimes, this only makes it worse if it manages to bypass this. This demonstrates the need for both improved filtering mechanisms and more comprehensive bias mitigation approaches.
 
-The discussion also highlighted legal views including metion of regulatory frameorks such as the European AI Act and how it emphasises human involvement in high-risk systems, alternative approaches such as Signal Detection Theory may be required to enhance oversight effectiveness (Langer et a., 2023). Furthermore, issues surrounding copyright, data usage, and the potential erosion of critical thinking skills point to the need for structured governance and the responsible inegration of AI technologies across domains (Larson et al., 2024; Rozputnia et al., 2025).
+The discussion also highlighted legal views including mention of regulatory frameorks such as the European AI Act and how it emphasises human involvement in high-risk systems, alternative approaches such as Signal Detection Theory may be required to enhance oversight effectiveness (Langer et a., 2023). Furthermore, issues surrounding copyright, data usage, and the potential erosion of critical thinking skills point to the need for structured governance and the responsible inegration of AI technologies across domains (Larson et al., 2024; Rozputnia et al., 2025).
 
 ### Week 3: Summary Post
 
 In my summary post, I focused on the following themes:
-As previously emphasised, AI-generated writing systems offer significant benefits in efficincy and scalabilitiy by automating tasks and producing content rapidly. However, their reliance on statistical pattern recognition rather than true understanding remains a key limitation, often leading to inaccurate or biased outputs (Hutson, 2021).
+As previously emphasised, AI-generated writing systems offer significant benefits in efficincy and scalability by automating tasks and producing content rapidly. However, their reliance on statistical pattern recognition rather than true understanding remains a key limitation, often leading to inaccurate or biased outputs (Hutson, 2021).
 
-Peer discussions reinforced the importance of mitigation strategies, particularly benefitx in human-in-the-loop stsems, where AI outputs are reviewed by experts to ensure ac countability and reduce misinformation (Saeidnia et al., 2025). The role of AI literacy was also highlighed, especially in education, to promote critical thinking in students. 
+Peer discussions reinforced the importance of mitigation strategies, particularly benefits of human-in-the-loop systems, where AI outputs are reviewed by experts to ensure accountability and reduce misinformation (Saeidnia et al., 2025). The role of AI literacy was also highlighed, especially in education, to promote critical thinking in students. 
 
 Moving forward, addressing these challneges requires both human oversight and technical solutions such as auditing, dataset documentation, and model reporting (Gebru et al., 2021); Mitchell et al., 2019). Additionally, hybrid and retrieval-based approaches may improve reliability along with the promotion of critical thinking and transparency.
 
@@ -48,3 +48,5 @@ Saeidnia, H.R., Hosseini, E., Lund, B., Tehrani, M.A., Zaker, S. and Molaei, S.,
 
 ### Collaborative Discussion
 The full collaborative discussion in which I was involved in can be found [here](Discussion2.docx)
+
+[← Back to Home](https://mmiz02.github.io/portfoliomachinelearning/)
