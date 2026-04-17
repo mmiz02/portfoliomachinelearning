@@ -10,10 +10,10 @@ The number of clusters (k) are chosen:
 k centroids are initialised where k is equal to the number of clusters chosen for the dataset.
 
 Centroids are assigned:
-Using the expectation maximization machine learning algorithm, each datapoint is assigned to its closest centroid based on distance. In the animation, this was visualised by points moving withing their centroid. Using maximisation, the mean of the centroid is computed and this reassings the cluster center.
+Using the expectation maximization machine learning algorithm, each datapoint is assigned to its closest centroid based on distance. In the animation, this was visualised by points moving withing their centroid. Using maximisation, the mean of the centroid is computed and this reassigns the cluster center.
 
 Iteration until convergence:
-These steps repeat until the centroids stop moving and points no longer change clusters or until the maximum number of iterations has been reached. By this point there will be algorithm convergene, where the total distance between points and their cluster centres is minimised.
+These steps repeat until the centroids stop moving and points no longer change clusters or until the maximum number of iterations has been reached. By this point there will be algorithm convergence, where the total distance between points and their cluster centres is minimised.
 
 ### Insights from the Second Animation (Uniform Points)
 For the [second algorithm](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/), I chose the data points, using the 'Uniform Points' option which illustrated additional behaviours (Harris, 2014):
@@ -27,8 +27,8 @@ Using animations, it was easier to understand how K-Means Clustering was applied
 
 In real-world applications, incorrect clustering could lead to biased decision-making or unfair treatment of individuals. Machine learning professionals therefore have a responsibility to understand the algorithm limitations, validate results, and communicate uncertainty transparently.
 
-
 ### References
 Harris, N. (2014) *Visualizing K-means clustering, Naftali Harris*. Available at: https://www.naftaliharris.com/blog/visualizing-k-means-clustering/ (Accessed: 19 March 2026). <br>
 Kavlakoglu, E. and Winland, V. (2025) *What is K-means clustering?*, IBM. Available at: https://www.ibm.com/think/topics/k-means-clustering (Accessed: 19 March 2026). 
 
+[← Back to Home](https://mmiz02.github.io/portfoliomachinelearning/)
