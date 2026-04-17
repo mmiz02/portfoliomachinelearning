@@ -34,6 +34,7 @@ This e-portfolio has significantly contributed to my professional and personal g
 *   [Weeks 8 - 10: Collaborative Discussion 2](mlcollab-disc2.md)
 *   [Week 9: CNN Model Activity](cnn-model.md)
 *   [Week 10: Unit 10 Seminar Preparation](sem10.md)
+*   [Profesional Skills Matrix](matrix.md)
 
 ---
 
