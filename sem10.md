@@ -4,7 +4,7 @@ The model_Performance_Measurement.ipnyb file was run and different parameters we
 
 Firstly, the code mixed classification and regression metrics. Starting off with the confusion matrix (0,2,1,1) indicated poor model performance, with no correctly classified negative instances and a high number of false positives. This could suggest that the model is biased towards predicting the positive class and lacks reliability in distinguishing between classes.
 
-F1 was calculated where results indicated that the model performs well for one clsss but fails completely for the other two classes. This leads to a low macro and weighted F1 score, showing lack of balance across classes. In the multilabel case, the model performed significantly better, achieving high scores, including a perfect score for one class. This indicates strong predictive performance and balanced classification across labels.
+F1 was calculated where results indicated that the model performs well for one class but fails completely for the other two classes. This leads to a low macro and weighted F1 score, showing lack of balance across classes. In the multilabel case, the model performed significantly better, achieving high scores, including a perfect score for one class. This indicates strong predictive performance and balanced classification across labels.
 
 The ROC yielded an AUC of 0.79, indicating that the model had a reasonable ability to distinguish between classes. While performance was acceptable, it was not optimal, suggesting that further model improvements could be made. R2 was approximately 0.95 indicating that the model was a good fit overall.
 
@@ -16,7 +16,7 @@ The ROC yielded an AUC of 0.79, indicating that the model had a reasonable abili
 # shuffle and split training and test sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 ```
- Havin an 80/20 training/testing split improved AUC with an area of 0.86. This is due to the model have more training data, allowing it to learn patterns more effectively.
+Having an 80/20 training/testing split improved AUC with an area of 0.86. This is due to the model have more training data, allowing it to learn patterns more effectively.
 
 
  ```python
@@ -40,11 +40,11 @@ R2 was approximately 0.26 in the case above.
 
 ### Reflection
 
-Overall, the results demonstrate that model performance is highly ensitive to parameter changes. Increasig the size of the training dataset improved classification performance (AUC), and poorer predictions significantly reduced regression performance (R2). This highlights the importance of proper data splitting and model tuning in achieving optimal predictive performance.
+Overall, the results demonstrate that model performance is highly sensitive to parameter changes. Increasing the size of the training dataset improved classification performance (AUC), and poorer predictions significantly reduced regression performance (R2). This highlights the importance of proper data splitting and model tuning in achieving optimal predictive performance.
 
 This task highlighted key ethical and professional considerations in machine learning. The variation in performance shows how model outcomes depend heavily on the parameters one chooses and the data quality. Poor results could lead to biased or unreliable decisions if deployed in practice.
 
 This emphasises the responsibility of practitioners to ensure proper model validation, use of representative data, and transparency when working with data, taking decisions which are justifiable to the best of their knowledge.
 
-
+[← Back to Home](https://mmiz02.github.io/portfoliomachinelearning/)
 
